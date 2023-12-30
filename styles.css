@@ -1,60 +1,42 @@
-/*  your css code here. If applicable */
 body {
-  background-color:rgb(255, 255, 255);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.left {
-  width: 450px;
-  margin-top: 70px;
-  display: inline-block;
-}
-
-.right {
-  display: flex;
-  width: 300px;
-  background-color: rgb(255, 255, 255);
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px #ccc;
-  flex-direction: column;
-  gap: 10px;
-}
-
-input[type="text"],
-input[type="password"] {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 10px;
-}
-
-button[type="submit"] {
-  background-color: #1877f2;
-  border-radius: 5px;
-  padding: 10px 20px;
-  width: 100%;
-  color: white;
-}
-
-a {
-  color: #1877f2;
-  text-decoration: none;
-}
-
-.signup {
-  background-color: #42b72a;
-  border-radius: 5px;
-  padding: 10px 20px;
-  width: 100%;
-  color: white;
-}
-
+      background-color: #f6f6f6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .left, .right {
+      width: 450px;
+      display: inline-block;
+    }
+    .left {
+      margin-top: 70px;
+    }
+    form {
+      display: flex;
+      width: 300px;
+      background-color: white;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px #ccc;
+      flex-direction: column;
+      gap: 10px;
+    }
+    input {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 10px;
+    }
+    button[type="submit"] {
+      background-color: #1877f2;
+      border-radius: 5px;
+      padding: 10px 20px;
+      width: 100%;
+    }
+    a {
+      text-decoration: none;
+      color: #1877f2;
+    }
+    .signup {
+      background-color: 42b72a;
+    }
