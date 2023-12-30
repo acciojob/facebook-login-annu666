@@ -28,7 +28,7 @@ body {
       padding: 10px;
     }
     button[type="submit"] {
-      background-color: #1877f2;
+      background-color: rgb(24, 119, 242);
       border-radius: 5px;
       padding: 10px 20px;
       width: 100%;
@@ -38,5 +38,5 @@ body {
       color: #1877f2;
     }
     .signup {
-      background-color: 42b72a;
+      background-color: rgb(66, 183, 42);
     }
